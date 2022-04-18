@@ -1,8 +1,8 @@
 image: mcr.microsoft.com/dotnet/sdk:5.0-alpine
 
 variables:
-  BUILD_FOLDER: Finance.PciDss.Bridge.RoyalPay.Server
-  DOCKER_IMAGE_TAG: monfex/pci-dss-bridge-royalpay-server
+  BUILD_FOLDER: Finance.PciDss.Bridge.Texcent.Server
+  DOCKER_IMAGE_TAG: monfex/pci-dss-bridge-texcent-server
 
 include:
   - project: 'MONFEX-DEVOPS/infrastructure_builder'
